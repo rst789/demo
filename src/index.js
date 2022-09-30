@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ExampleEff2 from "./UseEffect2";
+import ExampleEffect3 from "./UseEffect3";
+import ExampleEffect4 from "./UseEffect4";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ExampleEff2 />
+    <ExampleEffect3 />
+    {/*<ExampleEffect4 />*/}
   </React.StrictMode>
 );
 
